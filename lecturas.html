@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>OVI Diseño de sitios web</title>
+    <meta description ="OVI Diseño de sitios web"/>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/fuente.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/menu.css">
+
+    <!-- comentarios -->
+   
+    <script type="text/javascript" src="js/modernizr-custom.js"></script>
+
+    <script type="text/javascript" src="js/prefixfree.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    
+
+
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="css/fuente.css">
+	<header>
+		<h1>DISEÑO DE SITIOS WEB</h1>
+	</header>
+
+	<section id="logounad">
+			<img src="img/Logo_unad.png">
+		</section>
+	
+	
+	<div id="menu">
+	<ul>
+		<li class="active">
+			<h3><span haref="index.thml"class="icon-dashboard">Inicio</span></h3>			
+		</li>
+		<!-- we will keep this LI open by default -->
+		<li class="active">
+			<h3><span href="Lecturas.html">Lecturas</span></h3>
+			
+			<ul>
+				<li><a href="#Lecturagithub">Git y GitHub</a></li>
+				<li><a href="#Lecturahtml">HTML5</a></li>
+				<li><a href="#lecturacss">CSS3</a></li>
+			</ul>
+		</li>
+		<li class="active">
+			<ul><h3><span href="Multimedia.html">Multimedia</span> </h3></ul>
+			<ul>
+				<li><a href="Multimedia.html">Git y GitHub</a></li>
+				<li><a href="Multimedia.html">HTML5</a></li>
+				<li><a href="Multimedia.html">CSS3</a></li>
+			</ul>
+		</li>
+		<li class="active">
+			<h3><span class="icon-heart">Actividades</span></h3>
+			<ul>
+				<li><a href="Actividades.html">Actividades Git y GitHub</a></li>
+				<li><a href="Actividades.html">Actividades HTML5</a></li>
+				<li><a href="Actividades.html">Actividades CSS3</a></li>
+			</ul>
+		</li>
+		<li class="active">
+			<h3><span class="icon-heart">Autores</span></h3>
+			<ul>
+				<li><a href="Autores.html">Jairo Dueñas</a></li>
+				<li><a href="Autores.html">Edwin Carrillo</a></li>
+				
+			</ul>
+		</li>
+	</ul>
+</div>
+
+	
+	<div id="wrapper">
+		
+		<section id="Lecturagithub"> 
+			<h2>GIT Y GITHUB</h2>
+			<article>información complementaria sobre el uso de GIT y GITHUB, para gestionar proyectos colaborativos de diseño web. Creación de un repositorio remoto y clonar local, y creación de un repositorio local y clonar remoto. 	
+			</article>	
+			<br>crear un repositorio remoto y clonar en local
+Cuando creas un repositorio en GitHub, existe como un repositorio remoto. Puede clonar su repositorio para crear una copia local en su computadora y sincronizar entre las dos ubicaciones.</br>
+<br>Este procedimiento asume que ya ha creado un repositorio en GitHub , o que tiene un repositorio existente propiedad de alguien a quien le gustaría contribuir.</br>
+<br>1.	En GitHub, navegue a la página principal del repositorio.</br>
+<br>Nota: Si el repositorio está vacío, puede copiar manualmente la URL de la página del repositorio desde su navegador y saltar al paso cuatro.</br>
+<br>2.	Bajo el nombre del repositorio, haga clic en Clonar o descargar.</br>
+<br>3.	En la sección Clonar con HTTP, haga clic para copiar la URL de clonación del repositorio.</br>
+<br>4.	Abre Git Bash.</br>
+<br>5.	Cambie el directorio de trabajo actual a la ubicación donde desea que se cree el directorio clonado.</br>
+<br>6.	Escriba git cloney luego pegue la URL que copió en el Paso 2.</br>
+
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+<br>7.	Presione Enter . Se creará su clon local.</br> 
+
+
+<br>$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+<br>* Cloning into `Spoon-Knife`...
+<br>* remote: Counting objects: 10, done.
+<br>* remote: Compressing objects: 100% (8/8), done.
+<br>* remove: Total 10 (delta 1), reused 10 (delta 1)
+<br>* Unpacking objects: 100% (10/10), done.
+
+<article><h3>GitHub page</h3></article>
+
+
+<br>GitHub Pages es un servicio de alojamiento de sitios estáticos diseñado para alojar sus páginas personales, de organización o de proyecto directamente desde un repositorio de GitHub.</br>
+<br>Puede crear y publicar sitios de GitHub Pages en línea utilizando el Selector de temas de Jekyll. O si prefiere trabajar localmente, puede usar GitHub Desktop o la línea de comandos.</br>
+<br>GitHub Pages es un servicio de alojamiento de sitios estáticos y no admite código del lado del servidor, como PHP, Ruby o Python.</br>
+
+		</section>
+		
+		
+		<section id="Lecturahtml">
+			
+			<A name="Lecturahtml"></A>
+			<article><h2>HTML5</h2> </article>
+			<article>conocer la estructura básica de HTML5 (etiquetas, atributos y valores) y HTML (HTML, HEAD y BODY), navegación externa e interna y contenidos en HTML.
+			</article>
+			<br>Estructura básica HML5<br>
+<br>HTML5 es la versión 5 del lenguaje de marcado HTML. Un documento escrito en HTML tiene una estructura básica como la siguiente:<br>
+
+ 
+
+<br><b>•	&#60!DOCTYPE html> </b>Lo primero que nos encontramos es la declaración del tipo de documento que se está mostrando. El DOCTYPE variará según el tipo de documento realizado, en nuestro ejemplo hemos utilizado el doctype del HTML5 que es maravillosamente sencillo.<br>
+<br><b>•	HTML</b> Tras declarar el tipo de documento, indicamos que iniciamos nuestro documento HTML. Esta etiqueta se cierra cuando finalizamos el documento. Vemos que lleva un atributo lang, esto sirve para indicar el idioma del documento (en nuestro caso español)<br>
+<br><b>•	head</b> En un documento HTML tenemos una cabecera dónde colocaremos los metadatos de la página, el código JavaScript y el CSS que utilizará el navegador para renderizar la página.</br>
+<br><b>•	meta charset </b>Obligatorio en HTML5, informa el juego de caracteres del documento, debería ser siempre utf-8. Como todo metadato debe ir dentro del head<br>
+<br><b>•	title</b> Es un tipo de metadato especial que nos proporciona el título de la página. Por motivos de posicionamiento (SEO) se recomienda que el meta title sea parecido al H1 del documento y a la URL de la página.<br>
+<br><b>•	body </b>En su interior tendremos el contenido de la página.
+
+ <article><h3>Estructura básica HTML</h3></article>
+
+<br>•	Cada página comienza con: <b>< HTML >.</b>
+<br>•	A continuación viene la cabecera, delimitada por <b>< HEAD > y < /HEAD ></b>.
+<br>•	Después, el comando <b>< BODY ></b>, que indica el comienzo del cuerpo de la página. Las instrucciones HTML se escribirán a continuación, y finalizarán con <b>< /BODY ></b>.
+<br>•	La página acabará con <b>< /HTML ></b>.<br>
+<br>Es decir:<br>
+<br><b> &#60HTML></b>
+<br><b>&#60HEAD></b><br>
+<br>Definiciones de la cabecera
+<br><b>&#60/HEAD></b>
+<br><b>&#60BODY></b><br>
+<br>Instrucciones HTML
+<br><b>&#60/BODY></b>
+<br><b>&#60/HTML></b>
+
+        </section>
+
+		<section id="lecturacss">
+				<article><h2>CSS3 </h2></article>
+				<article>
+				temas relacionados con CSS3: Estilos internos y Externos, Selectores CSS, Aplicando clases y heredando a tags, HTML, Propiedades básicas de CSS y Múltiples clases Float, Position, Oweflow
+				
+
+		</section>
+		
+				   				
+	</div>
+
+		
+
+	
+</body>
+</html>
